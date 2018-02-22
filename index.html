@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+  <body>
+    <h3>My Google Maps Demo</h3>
+    <button id="buscar">Buscar Ubicacion</button>
+    <input type="text" placeholder="Tu origin" id="origen">
+    <input type="text" placeholder="Tu destino" id="destino">
+    <button id="ruta">Trazar Ruta</button>
+    <div id="map"></div>
+
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD1RqnJ2RPoudgyQYFNEbaOKdKdmpuXgqc&callback=initMap&libraries=places">
+    </script>
+    <script type="text/javascript" src="assets/js/app.js"></script>
+  </body>
+</html>
